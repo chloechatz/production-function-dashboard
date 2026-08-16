@@ -1,5 +1,10 @@
 # The Production Function Time Machine
 Interactive Streamlit dashboard built as the artefact for the MSc Data Science dissertation *"The Shifting Production Function of Sporting Success: A Longitudinal Machine Learning Analysis of European Football, 2010–2025."*
+## Live Demo
+
+[Open the Production Function Time Machine](https://football-time-machine.streamlit.app/)
+
+The dashboard is deployed as a Streamlit application and can be used directly in the browser without local installation.
 ## What it does
 The user enters a club's financial profile (revenue, wage bill, squad value, net transfer spend, squad age, Champions League depth) — either manually or by loading a real club-season from the study's 28-club panel — and compares the model's predicted standing, and the SHAP-based reasoning behind it, across two of the study's regulatory eras (Pre-FFP, Post-FFP, Post-COVID). The comparison demonstrates the dissertation's central finding: the relationship between financial resources and sporting success is not stable over time.
 ## How the underlying models were built
